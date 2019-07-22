@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">User</string>
+    <string name="nav_task">Task</string>
+    <string name="nav_alert">Alert</string>
+    <string name="nav_profile">Profile</string>
+    <string name="tvCompletedTask">Task Status: Completed</string>
+    <string name="tvIncompleteTask">Task Status: Incomplete</string>
+    <string name="btnLogout">Log Out</string>
+</resources>
