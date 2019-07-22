@@ -42,7 +42,7 @@ public class IncompleteTaskActivity extends AppCompatActivity {
         lvTasks.setAdapter(aaTask);
 
         AsyncHttpClient client = new AsyncHttpClient();
-        client.get("http://10.0.2.2/smacbiz/getTask.php", new JsonHttpResponseHandler() {
+        client.get("http://smac-biz.000webhostapp.com/SmacBiz/getTask.php", new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
                 try {

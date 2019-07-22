@@ -67,7 +67,7 @@ public class ProfileActivity extends AppCompatActivity {
         params.add("id", String.valueOf(s.getId()));
 
         final AsyncHttpClient client = new AsyncHttpClient();
-        client.get("http://10.0.2.2/smacbiz/getStaff.php", params, new JsonHttpResponseHandler() {
+        client.get("http://smac-biz.000webhostapp.com/SmacBiz/getStaff.php", params, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
                 try {
